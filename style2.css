@@ -1,15 +1,14 @@
-/* Adjusting the logo size */
+
 .logo {
-    width: 3% !important;  /* Reduce size of the logo */
-    height: auto !important; /* Maintain aspect ratio */
-}
+    width: 3% ;  
+    height: auto ;
 
-/* Changing the background color of Delivery Branch container to white */
+
 .bg-secondary {
-    background-color: white !important;  /* Set the background to white */
+    background-color: white !important;  
 }
 
-/* Optional: Make the text in the Delivery Branch container dark for contrast */
+
 .nav-link {
-    color: black !important;  /* Set text color to black */
+    color: black !important;  
 }
