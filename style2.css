@@ -1,14 +1,13 @@
-
+/* Adjusting the logo size */
 .logo {
-    width: 3% ;  
-    height: auto ;
-
-
-.bg-secondary {
-    background-color: white !important;  
+    width: 3% !important; 
+    height: auto !important;
 }
 
+.bg-secondary {
+    background-color: white !important;  /* Set the background to white */
+}
 
 .nav-link {
-    color: black !important;  
+    color: black !important;  /* Set text color to black */
 }

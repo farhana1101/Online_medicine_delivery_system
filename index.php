@@ -13,27 +13,29 @@ include 'db_connect.php';
     <link rel="stylesheet" href="style2.css">
 
 
-
     <style>
+    .logo {
+      width: 3%;
+      height: auto;
+    }
 
+    .navbar .nav-link {
+      color: rgb(250, 251, 251) !important;;
+    }
 
+    .bg-secondary {
+      background-color:rgb(99, 102, 105) !important;
+    }
 
-        
-        .logo {
-            width: 3% ;  
-            height: auto ; 
-        }
+    .nav-item .text-light {
+      color: #fff !important;
+    }
 
-        .bg-secondary {
-            background-color: white ;  
-        }
-
-        .nav-link {
-            color: black ;  
-        }
-
-       
-    </style>
+    .card-img-top {
+      height: 180px;
+      object-fit: cover;
+    }
+  </style>
 
 
 
@@ -56,7 +58,7 @@ include 'db_connect.php';
             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="medicines.php">Medicines</a>
+            <a class="nav-link" href="medicine.php">Medicines</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="login.php">Register</a>
@@ -314,12 +316,13 @@ include 'db_connect.php';
 
 
 
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsD6mJpsgFEXF1u9eF1ro6/1d3v0sY5f5RRA6B" crossorigin="anonymous"></script>
 
 </body>
 </html>
+
+
+
+
 
 
